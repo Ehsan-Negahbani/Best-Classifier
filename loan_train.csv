@@ -1,4 +1,4 @@
-,Unnamed: 0,loan_status,Principal,terms,effective_date,due_date,age,education,Gender
+id,Unnamed,loan_status,Principal,terms,effective_date,due_date,age,education,Gender
 0,0,PAIDOFF,1000,30,9/8/2016,10/7/2016,45,High School or Below,male
 2,2,PAIDOFF,1000,30,9/8/2016,10/7/2016,33,Bechalor,female
 3,3,PAIDOFF,1000,15,9/8/2016,9/22/2016,27,college,male
