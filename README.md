@@ -10,4 +10,5 @@ As the next step I am developing three other python codes to productionalize the
 1. First code constantly checks the input data for new loan applications (using Google API), predicts the outcome using the best model, and emails the model prediction to the submitting personnel. The executable form of this code runs in terminal periodically (using crontab application) .
 2. Another executable python code constantly checks the availability of labelled data in a google spreadsheet (using Google API), then appends the new data to the training dataset that is maintained on PostgreSQL database manager. 
 3. Third code is scheduled to run every month on the updated training dataset to evaluate model performances and select the best predictive model and send the results to the relevant person to decide updating the predictive algorithm if necessary.
+4. According to benefits of Random Forest model, maybe this model should be applied first to the model, since it needs minium data preparation.
 
